@@ -1,3 +1,9 @@
+body{
+    background-image: url("../img/bg.png");   
+    background-size: cover;
+    background-repeat: repeat;
+}
+
 .title{
     display: flex;
     justify-content: center;
