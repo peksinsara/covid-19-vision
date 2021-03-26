@@ -13,6 +13,8 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
+    <!--Style-->
+    <link rel="stylesheet" href="../styles/maps.css">
 
     <!-- Font Awesome -->
     <link
@@ -46,7 +48,7 @@
 
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">COVID-19 Vision</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -67,7 +69,7 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="maps.html">Maps</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -79,7 +81,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Dropdown
+              Dropdown 
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Action</a>
@@ -88,8 +90,9 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link disabled" href="#">Contact Us</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -107,7 +110,39 @@
     </nav>
 
     <!--Map-->
-    <div id='map' style='width: 100%; height: 100vh;'></div>
+    <div class="title">Current State</div>
+    <div id='map' class="map"></div>
+
+    <!--Cards-->
+    <div class="grid">
+        <div class="grid__item">
+          <div class="card"><img class="card__img" src="https://ncdalliance.org/sites/default/files/styles/feature_1800x900/public/news/WHO%20logo.jpg?itok=iWACp0lh">
+            <div class="card__content">
+              <h1 class="card__header">WHO</h1>
+              <p class="card__text">WHO's primary role is to direct international health within the United Nations' system and to lead partners in global health response.</p>
+              <button class="card__btn">Check out <span>&rarr;</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="card"><img class="card__img" src="https://ncdalliance.org/sites/default/files/styles/feature_1800x900/public/news/WHO%20logo.jpg?itok=iWACp0lh" alt="Desert">
+            <div class="card__content">
+              <h1 class="card__header">WHO</h1>
+              <p class="card__text">WHO's primary role is to direct international health within the United Nations' system and to lead partners in global health response.</p>
+              <button class="card__btn">Check Out <span>&rarr;</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="card"><img class="card__img" src="https://ncdalliance.org/sites/default/files/styles/feature_1800x900/public/news/WHO%20logo.jpg?itok=iWACp0lh" alt="Canyons">
+            <div class="card__content">
+              <h1 class="card__header">WHO</h1>
+              <p class="card__text">WHO's primary role is to direct international health within the United Nations' system and to lead partners in global health response.</p>
+              <button class="card__btn">Check Out <span>&rarr;</span></button>
+            </div>
+          </div>
+        </div>
+    </div>
 
 
     <!-- Footer -->
