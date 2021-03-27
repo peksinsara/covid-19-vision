@@ -162,8 +162,8 @@ body{
   }
   .about-content-img{
       width:60%;
-      background-image: url("../img/img2.jpg");
-      background-repeat: repeat;
+      background-image: url("../img/img5.jpg");
+      background-size: contain;
       height:60vh;
       position: relative;
       z-index: 2;
